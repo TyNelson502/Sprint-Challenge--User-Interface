@@ -297,19 +297,16 @@ nav a:hover{
     width: 100%;
 }
 .container-about-page{
-   display: flex; 
+    
 }
 .about{
     border-bottom: 1px dashed black;
-    margin-bottom: 25px;
 }
 .middle{
-    /*
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     display: flex;
-    flex-direction: row; 
-    */
+    flex-flow: row wrap;
 }
 .container-about-page .text-container{
     /*
