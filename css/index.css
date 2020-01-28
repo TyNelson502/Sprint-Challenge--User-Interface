@@ -297,29 +297,41 @@ nav a:hover{
     width: 100%;
 }
 .container-about-page{
-    display: flex;
-    flex-flow: row wrap;
-    /*justify-content: space-evenly;*/
+   display: flex; 
 }
 .about{
     border-bottom: 1px dashed black;
     margin-bottom: 25px;
 }
-section>.Strategy{
-    width: 25%;
+.middle{
+    /*
+    padding: 20px;
+    margin: 20px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row; 
+    */
 }
-section>.How{
+.container-about-page .text-container{
+    /*
+    flex-direction: row;
+    margin: auto;
     width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 20px;
+    */
 }
-section>.Places{
+.container-about-page .text-container h2{
+    /*
+    margin: 20px;
+    padding: 20px;
+    height: 100px;
+    */
+}
+.container-about-page .text-container p{
+    /*
+    width: 50%;
+    text-align: center;
+    margin: 10px;*/ 
+}
+.together{
 
-}
-section>.Collaboration{
-    
 }
