@@ -282,3 +282,26 @@ nav a:hover{
     align-items: center;
     justify-content: center;
 }
+.bottom-content{
+    margin-top: 25px;
+}
+.text-container>h2{
+    margin-bottom: 10px;
+    text-indent: -1em;
+}
+.text-container>p{
+    margin-right: 50px;
+}
+/*About page code starts here*/
+.jumbo-about{
+    width: 100%;
+}
+.container-about-page{
+    display: flex;
+    flex-flow: row wrap;
+    /*justify-content: space-evenly;*/
+}
+.about{
+    border-bottom: 1px dashed black;
+    margin-bottom: 25px;
+}
