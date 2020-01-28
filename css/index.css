@@ -305,3 +305,21 @@ nav a:hover{
     border-bottom: 1px dashed black;
     margin-bottom: 25px;
 }
+section>.Strategy{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section>.How{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section>.Places{
+
+}
+section>.Collaboration{
+    
+}
