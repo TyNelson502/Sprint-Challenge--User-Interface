@@ -149,7 +149,7 @@ footer nav a {
 }
 body{
    margin-left: 75px;
-   margin-right: 75px;
+   margin-right: 75px; 
 }
 .nav_bar>nav{
     display: flex;
@@ -293,42 +293,45 @@ nav a:hover{
     margin-right: 50px;
 }
 /*About page code starts here*/
+.container-about-page{
+    margin: 0 80px;
+}
 .jumbo-about{
     width: 100%;
 }
-.container-about-page{
-    
-}
-.about{
+.header{
     border-bottom: 1px dashed black;
+    margin: 25px 0;
+    padding: ;
 }
 .middle{
-    padding: 10px;
-    margin: 10px;
+    /*padding: 10px;
+    margin: 10px;*/
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
-.container-about-page .text-container{
-    /*
-    flex-direction: row;
-    margin: auto;
-    width: 25%;
-    padding: 20px;
-    */
+.middle .text-container{
+    width: 45%;
+    margin: ;
+    padding: ;
+}
+.text-container>button{
+   text-align: center;
 }
 .container-about-page .text-container h2{
-    /*
-    margin: 20px;
-    padding: 20px;
+
+   /* margin: 5px 5px;
+    padding: 5px;
     height: 100px;
     */
 }
 .container-about-page .text-container p{
-    /*
-    width: 50%;
-    text-align: center;
-    margin: 10px;*/ 
-}
-.together{
 
+   /* text-align: center;
+    margin: 5px 5px;
+    padding: 5px; */ 
 }
+
