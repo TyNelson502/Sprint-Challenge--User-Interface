@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -139,8 +139,197 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
 }
+/* My code starts here*/
+.firstlogo{
+    width:100%;
+}
+body{
+   margin-left: 75px;
+   margin-right: 75px; 
+}
+.nav_bar>nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.nav_bar a{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: black;
+   /* align-items: center;
+    float: right; */
+}
+.firstlogo{
+    float: left;
+    padding: 10px;
+    width: 200px;
+}
+.jumbo>img{
+    width: 100%;
+}
+nav a:hover{
+    color:black;
+}
+.firstlogo{
+
+}
+.top-content{
+    border-bottom: 1px dashed black ;
+}
+.middle-content{
+    padding: 0 2%;
+    margin:  0;
+}
+.middle-content .boxes{
+    display: flex;
+    flex: wrap;
+    justify-content: space-evenly;
+    border-bottom: 1px dashed black ;
+}
+
+.middle-content .boxes .box1{
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box2{
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box3{
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4{
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5{
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6{
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7{
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8{
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9{
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10{
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-content{
+    margin-top: 25px;
+}
+.text-container>h2{
+    margin-bottom: 10px;
+    text-indent: -1em;
+}
+.text-container>p{
+    margin-right: 50px;
+}
+/*About page code starts here*/
+.container-about-page{
+    margin: 0 80px;
+}
+.jumbo-about{
+    width: 100%;
+}
+.header{
+    border-bottom: 1px dashed black;
+    margin: 25px 0;
+    padding: ;
+}
+.middle{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-top: 10px;
+    border-bottom: 1px dashed black;
+    justify-content: center;
+}
+.middle .text-container{
+    width: 45%;
+}
+.text-container>button{
+    padding: 10px 24px;
+    font-size: 16px;
+    color: black;
+    border-radius: 16px;
+    background-color: white;
+    margin-bottom: 25px;
+}
+.container-about-page .text-container h2{
+    text-indent: 5px;
+}
+.container-about-page .text-container p{
+    margin: 2px 2px;
+    padding: 3px;
+}
+
